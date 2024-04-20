@@ -12,7 +12,7 @@
   h1,
   h2,
   h3 {
-    font-family: "Brygada 1918", serif;
+    font-family: "apBrygada 1918", serif;
   }
   p {
     font-family: "Poppins", sans-serif;
@@ -33,3 +33,42 @@
 body {
   background-color: var(--my-color);
 }
+
+/* img {
+  max-width: 100%;
+} */
+
+
+
+.nav {
+  position: absolute;
+  top: -100%;
+  right: 0;
+  /* left: 0; */
+  bottom: 0;
+  width: 50%;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.nav.open {
+  top: 5rem;
+  z-index: 99;
+  background-color: #fff;
+  /* opacity: 50; */
+}
+/* 
+@media (min-width: 1024px) {
+  .nav {
+    position: relative;
+    top: 0;
+    padding: 0;
+    width: auto;
+    z-index: auto;
+  }
+  .nav.open {
+    top: 0;
+    background-color: transparent;
+  }
+} */

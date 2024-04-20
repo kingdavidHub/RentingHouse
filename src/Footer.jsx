@@ -10,13 +10,13 @@ function Footer() {
       <footer>
         <div className="mt-20">
           <section>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:grid-cols-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
               <div className="p-6">
-                <h4 className="text-2xl text-[#475C46] inline-block">
-                  <span className="font-extrabold">RENT</span>HOMES
-                </h4>
-                <div className="inline-block ml-3">
-                  <img src={VectorHouse} className=" h-7  pt-1" alt="" />
+                <div className="flex items-start">
+                  <h4 className="text-xl sm:text-2xl text-[#475C46]">
+                    <span className="font-extrabold">RENT</span>HOMES
+                  </h4>
+                  <img src={VectorHouse} className="h-7 pt-1" alt="" />
                 </div>
 
                 <p className="mt-10">The best and easiest way to rent homes.</p>

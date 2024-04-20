@@ -1,4 +1,4 @@
-function Testimonials(props) {
+function TestimonialCard(props) {
   return (
     <>
       <div className="border-greenBorder border-4 p-6 rounded-tr-custom-1 rounded-bl-custom-1 lg:w-1/3 text-[#141E15] rounded-tl-3xl">
@@ -16,4 +16,4 @@ function Testimonials(props) {
   );
 }
 
-export default Testimonials;
+export default TestimonialCard;
