@@ -56,9 +56,9 @@ body {
   top: 5rem;
   z-index: 99;
   background-color: #fff;
-  /* opacity: 50; */
+  opacity: 50;
 }
-/* 
+
 @media (min-width: 1024px) {
   .nav {
     position: relative;
@@ -71,4 +71,4 @@ body {
     top: 0;
     background-color: transparent;
   }
-} */
+}
